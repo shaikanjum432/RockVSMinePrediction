@@ -1,44 +1,23 @@
-**Sonar Classification Project**
+# Sonar Classification Project
 
-**Overview**
-This project involves building a machine learning model to classify sonar signals as either rocks or mines. The dataset used in this project contains various features related to sonar signals, and a logistic regression model is trained for classification.
+## Overview
+This project focuses on predicting whether objects detected by sonar are mines or rocks. The prediction is based on analyzing sonar data using machine learning techniques.
 
-**Project Structure**
+## Introduction
+The project utilizes Python programming language and Google Colaboratory, a cloud-based system for writing Python scripts. With the aid of sonar technology, sound signals are sent and received to differentiate between mines and rocks.
 
-**Open In Colab**
+## Workflow
 
-Importing Dependencies
+**1. Data Collection:** Sonar data is collected through simulated experiments, where signals bounce back from metal cylinders (representing mines) and rocks.
 
-**Data Collection and Data Processing**
+**2. Data Pre-processing:** Collected data undergoes pre-processing steps to make it usable. This involves analyzing and understanding the data.
 
-Load the dataset into a pandas DataFrame.
+**3. Data Splitting:** The data is split into training and test sets to train the machine learning model and evaluate its performance.
 
-Display the first 5 rows of the dataset.
+**4. Model Selection:** Logistic regression is chosen as the model due to its effectiveness in binary classification problems.
 
-Display the shape of the dataset.
+**5. Model Training:** The selected model is trained using the training data to learn patterns and characteristics of metal cylinders and rocks.
 
-Display statistical measures of the data.
+**6. Prediction:** Once trained, the model can predict whether a new object detected by the sonar is a rock or a mine.
 
-Show the distribution of classes (Rocks and Mines) in the dataset.
-
-Display the mean values for each feature grouped by class.
-
-**Separating Data and Labels**
-
-Create feature matrix X and labels Y.
-
-**Training and Test data**
-
-Split the data into training and test sets.
-
-**Model Training - Logistic Regression**
-
-Initialize and train a logistic regression model.
-
-**Model Evaluation**
-
-Evaluate the accuracy on both the training and test datasets.
-
-**Making a Predictive System**
-
-Provide an example of making predictions using the trained model.
+![SonaRockVSMine_Workflow](https://github.com/shaikanjum432/RockVSMinePrediction-DataScienceProject/assets/69950202/dd7829c6-55d2-4b23-977b-36f33e9e4bcc)
